@@ -6,12 +6,13 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "test:unit": "vue-cli-service test:unit"
+    "test:unit": "vue-cli-service test:unit --watch"
   },
   "dependencies": {
     "axios": "^0.19.2",
     "core-js": "^3.6.4",
     "vue": "^2.6.11",
+    "vue-awesome": "^4.0.2",
     "vue-router": "^3.1.5",
     "vuex": "^3.1.2"
   },
